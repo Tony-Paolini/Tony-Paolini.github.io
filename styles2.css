@@ -1,0 +1,125 @@
+/* CSS Stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+}
+/*basic element tags*/
+body {
+    background-color: black;
+}
+p {
+    color: wheat;
+}
+table {
+    color: wheat;
+}
+h2 {
+    color: wheat;
+}
+
+/*header+Nav*/
+#HeaderH1 {
+    display: flex;
+    justify-content: center;
+    height: 4vmin;
+    color: wheat;
+    background-color: black;
+}
+#BannerH1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 240%;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    overflow: hidden;
+    height: 3vh;
+    background-color: rgba(139, 118, 0, 0.541);
+}
+li a {
+    color: wheat;
+    padding: 20px;
+    text-decoration: none;
+} 
+li a:hover {
+    background-color: rgb(139, 118, 0);
+}
+
+#p1, #p2 {
+    display: flex;
+    justify-content: center;
+}
+
+/*main banner*/
+main header {
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    background-image: url(Images/EldenRingImg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vmax;
+    height: 15vmin;
+}
+main header section {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+}
+.CheatsheetButtons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(139, 118, 0, 0.541);
+    color: wheat;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.CheatsheetButtons button:hover {
+    background-color: rgb(139, 118, 0);
+    color: wheat
+}
+#p1, #p2 {
+    display: flex;
+    justify-content: center;
+}
+
+/*game section */
+#bestTime, #latestClick, #goblinsSlayed {
+    color: wheat;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: rgba(139, 118, 0, 0.541);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+#game-area {
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    background-image: url('Images/goblin-cave.jpeg');
+    background-size: cover;
+    background-position: center; 
+    border: 2px solid wheat;
+    margin: 20px auto;
+    overflow: hidden;
+}
+#slash-effect {
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+#divtest {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#divtest img {
+    width: 200px;
+    height: auto;
+}
